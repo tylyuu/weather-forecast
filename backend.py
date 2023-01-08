@@ -13,6 +13,7 @@ def get_data(place, days):
 
 
 if __name__=="__main__":
+    print(get_data(place="Toronto", days=3))
     print(get_data(place="Tokyo", days=3))
 
 
