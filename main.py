@@ -50,17 +50,16 @@ st.write("Remind your loved ones to put on clothes...")
 st.empty()
 
 with st.form(key="form"):
-    user_email = st.text_input("His/Her email address")
+    receiver = st.text_input("His/Her email address")
     raw_message = st.text_area("Your message")
+    sender = st.text_input("Your name (optional)")
     message = f"""\
-Subject: New email from {user_email}
-
-From: {user_email}
+Subject: Reminder from {sender}
 {raw_message}
 """
     button = st.form_submit_button("Send!")
     if button:
-        send_email(message)
+        send_email(message, receiver)
         st.info("Your email was sent succesfully!")
 
 
