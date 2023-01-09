@@ -1,6 +1,6 @@
 # Smart Weather Forecast
 
-Smart Weather Forecast is a pytohn app powered by Strealit
+Smart Weather Forecast is a python app powered by Strealit
 that enables users to visualize weather data in certain area
 in the world.
 
@@ -12,8 +12,8 @@ Run the following command in your project terminal:
 And you are good to go!
 
 ## Features:
- - Type in place in the world and get instant weather forecast
- - Including a slide bar that enables users to determine the number of days to forecast
+ - Type in different locations in the world and get instant weather forecast
+ - Including a slide bar that enables users to determine the number forecast days
  - Including Customized type of data demonstration
  - Including a send-email box that enables users to remind their loved ones right now!
 
